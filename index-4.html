@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./estilo.css">
+    <link rel="shortcut icon" href="./Imagenes/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+<body background= "./Imagenes/fondo rosas.jpeg">
+    <header>
+        <div>
+            <img src="./Imagenes/Logo de Fran.jpg" width="70" alt="Logotipo">
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="./Index-1.html">Inicio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="./index-2.html">Tablas</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index-3.html">Imagenes Responsivas</a>
+                </li>   
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index-5.html">Texto Responsivo</a>
+                </li>    
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index-4.html">Contacto</a>
+                </li>      
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+              </form>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <h1>Contactanos</h1>
+        <form action="">
+            <p>
+                <label for="nombreId">Nombres:</label>
+                <input type="text" placeholder="Escribe tus Nombres" id="nombreId" maxlength="100">  
+            </p>
+            <p>
+                <label for="apellidosId">Apellidos:</label>
+                <input type="text" placeholder="Escribe tus Apellidos" id="apellidosId" maxlength="100">
+            </p>
+            <p>
+                <label for="correoId">¿Cúal es tu correo?</label>
+                <input type="email" placeholder="Escribe tu correo" id="correoId" maxlength="100">
+            </p>
+            <p>
+                <label for="chileId">¿Esta es Chile?</label>
+                <input type="radio" name="hm" value="si">Si
+                <input type="radio" name="hm" value="no">No
+            </p>
+            <p>
+                <textarea name="texto" placeholder="Diganos su Consulta" rows="4" cols="40"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </p>
+            
+        </form>
+        <a href="mailto:contacto@fransolofran.com" title="Enviar correo a Fran">Enviar Correo</a>
+    </main>
+    <footer>Francis Martinez</footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>

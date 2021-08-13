@@ -1,0 +1,45 @@
+h1,b,input{
+    color: #d31d6a;
+}
+
+a{
+    text-decoration: none;
+}
+li {
+    display: inline-block;
+}
+
+b {
+ text-shadow: 1px 1px black;
+}
+
+strong,label{ 
+    color: blueviolet;
+
+}
+cite{
+    color: #1c9a22;
+    text-shadow: 2px 1,5px black;
+}
+input{
+    background-color:#eb1bc53a;
+    text-align: center;
+}
+::placeholder{
+    color: rgb(255, 0, 149);
+    text-align: center;
+     }
+.derecha,.izquierda{
+    background-color: pink;
+}
+.centro{
+    background-color: #1c9a22;
+    float: left;
+    width: 60%;
+}
+.derecha,.izquierda,.centro{
+    float:left;
+    width: 20%;
+}
+
+
