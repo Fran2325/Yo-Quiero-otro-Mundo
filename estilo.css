@@ -1,5 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+body{
+    background-image:url("./Imagenes/fondo rosas.jpeg") ;
+}
+main{
+    min-height: 69vh;
+    font-size: 20px;
+}
 h1,b,input{
     color: #d31d6a;
+    font-size: 2.5em;
 }
 
 a{
@@ -10,25 +24,28 @@ li {
 }
 
 b {
- text-shadow: 1px 1px black;
+ text-shadow: 0.0625rem 0.0625rem black;
 }
 
 strong,label{ 
     color: blueviolet;
-
 }
+
 cite{
     color: #1c9a22;
-    text-shadow: 2px 1,5px black;
+    text-shadow: 0.125rem 1,0.3125rem black;
 }
+
 input{
     background-color:#eb1bc53a;
     text-align: center;
 }
+
 ::placeholder{
     color: rgb(255, 0, 149);
     text-align: center;
-     }
+}
+
 .derecha,.izquierda{
     background-color: pink;
 }
@@ -43,7 +60,7 @@ input{
 }
 #hexadecimal{
 	font-size: 35px;
-	color: #ffffff;
+	color: #1c9a22;
 	display: block;
 	text-transform: uppercase;
 	margin: 15px;
@@ -54,8 +71,8 @@ input{
 	background: none;
 	outline: none;
 	font-size: 15px;
-	color: #ffffff;
-	border: 3px solid #fff;
+	color: #1c9a22;
+	border: 3px solid #1c9a22;
 	border-radius: 25px;
 	padding: 10px 15px;
 	transition: transform .3s ease
@@ -69,7 +86,7 @@ input{
   visibility: hidden;
   width: 120px;
   background-color: #555;
-  color: #fff;
+  color: #1c9a22;
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
@@ -97,6 +114,3 @@ input{
   visibility: visible;
   opacity: 1;
 }
-
-
-
