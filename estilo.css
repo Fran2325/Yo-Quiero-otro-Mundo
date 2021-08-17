@@ -8,12 +8,22 @@ body{
     background-image:url("./Imagenes/fondo rosas.jpeg") ;
 }
 main{
-    min-height: 69vh;
-    font-size: 20px;
+    min-height: 73vh;
+    font-size: 18px;
+}
+form label{
+    margin: 1px;
+    color: brown;
 }
 h1,b,input{
     color: #d31d6a;
-    font-size: 2.5em;
+}
+h1{
+    margin-bottom: 1rem;
+    font-size: 2em;
+}
+footer p{
+    margin: 1px;
 }
 
 a{
