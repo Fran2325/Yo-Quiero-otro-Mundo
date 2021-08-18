@@ -5,15 +5,14 @@
 }
 
 body{
-    background-image:url("./Imagenes/fondo rosas.jpeg") ;
+    background-image:url("./Imagenes/fondo rosas.jpeg");
 }
 main{
-    min-height: 73vh;
+    min-height: 70vh;
     font-size: 18px;
 }
 form label{
     margin: 1px;
-    color: brown;
 }
 h1,b,input{
     color: #d31d6a;
@@ -124,3 +123,9 @@ input{
   visibility: visible;
   opacity: 1;
 }
+
+section {
+    width: 100%;
+    height: 100%;
+    border: 3px solid pink;
+  }

@@ -6,6 +6,10 @@ function mialerta() {
 } 
 mialerta();
 
+$( "button" ).click(function() {
+  $( "section" ).hide( "drop", { direction: "down" }, "slow" );
+  });
+
 // funcion para cambiar el fondo de color
 function generarNuevoColor(){
 	var simbolos, color;
