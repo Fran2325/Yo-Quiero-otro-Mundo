@@ -26,10 +26,8 @@ h1,b,input{
     color: #d31d6a;
 }
   
-
 footer p{
     margin: 1px;
-    font-size: 3em;
 }
 
 a{
@@ -136,11 +134,3 @@ section jquery {
     height: 100%;
     border: 3px solid pink;
   }
-
-h1,h2,h3,h4,h5,h6{
-    color: springgreen;
-    font-size: 40px;
-}
-.nav li ul{
-    display: none;
-}
