@@ -6,9 +6,15 @@ function mialerta() {
 } 
 mialerta();
 
+$('#mostrar').click(function(){
+	$('#prueba').show(1000);
+});
+
 $( "button" ).click(function() {
   $( "section" ).hide( "drop", { direction: "down" }, "slow" );
   });
+
+
 
 // funcion para cambiar el fondo de color
 function generarNuevoColor(){

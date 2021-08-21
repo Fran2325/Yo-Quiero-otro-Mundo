@@ -1,15 +1,23 @@
+
 *{
     margin: 0;
     padding: 0;
     background-color: white;
 }
 
+main{
+    min-height: 70vh;
+}
+
+nav li a:hover{
+    color: pink;
+}
+
 body{
     background-image:url("./Imagenes/fondo rosas.jpeg");
 }
-main{
-    min-height: 70vh;
-    font-size: 18px;
+i{
+    font-size: 30px;
 }
 form label{
     margin: 1px;
@@ -17,12 +25,11 @@ form label{
 h1,b,input{
     color: #d31d6a;
 }
-h1{
-    margin-bottom: 1rem;
-    font-size: 2em;
-}
+  
+
 footer p{
     margin: 1px;
+    font-size: 3em;
 }
 
 a{
@@ -129,3 +136,11 @@ section jquery {
     height: 100%;
     border: 3px solid pink;
   }
+
+h1,h2,h3,h4,h5,h6{
+    color: springgreen;
+    font-size: 40px;
+}
+.nav li ul{
+    display: none;
+}
