@@ -56,7 +56,7 @@
                 <!-- Etiquetas para hacer el contenido central o principal de la pagina-->
                 <main>
                     <h1>Contactanos</h1>
-                    <form action="">
+                    <form class ="form" action="./index.html" id="formulario">
                         <p>
                             <label for="nombreId">Nombres:</label>
                             <input type="text" placeholder="Escribe tus Nombres" id="nombreId" maxlength="100">  
@@ -75,10 +75,10 @@
                             <input type="radio" name="hm" value="no">No
                         </p>
                         <p>
-                            <textarea name="texto" placeholder="Diganos su Consulta" rows="4" cols="40"></textarea>
+                            <label>Mensaje: <input placeholder="Escribe tu mensaje aqui" type="text" name="mensaje" id="mensaje"></label>
                         </p>
                         <p>
-                            <input type="submit" value="Enviar">
+                            <input type="submit" value="Enviar" href="./index.html">
                             <input type="reset" value="Borrar">
                         </p>
                     </form>

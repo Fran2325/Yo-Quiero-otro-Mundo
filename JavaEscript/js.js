@@ -1,3 +1,4 @@
+// Funcion cuadro de bienvenida
 function mialerta() {
     let hola= document.getElementById("saludo")
     if (hola) {
@@ -6,13 +7,18 @@ function mialerta() {
 } 
 mialerta();
 
-$('#mostrar').click(function(){
-	$('#prueba').show(1000);
-});
 
-$( "button" ).click(function() {
-  $( "section" ).hide( "drop", { direction: "down" }, "slow" );
-  });
+
+$(document).ready(function(){
+	$("#mostrar").click(function(){
+		$('#target').show(300);
+		$('.target').show("slow");
+	});
+	$("#ocultar").click(function(){
+		$('#target').hide(300);
+		$('.target').hide("fast");
+	});
+});
 
 
 
@@ -44,3 +50,33 @@ function copiarAlPortapapeles(hexadecimal) {
 // funcion para mostra fecha y hora
 let dia= new Date();
 document.getElementById("fecha").innerHTML=dia;
+
+// Funcion para validar formulario
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("formulario").addEventListener('submit', validarFormulario); 
+  });
+  
+  function validarFormulario(evento) {
+    evento.preventDefault();
+    var nombre = document.getElementById('nombreId').value;
+    if(nombre.length == 0) {
+      alert('Ingresa tu nombre');
+      return;
+    }
+	var apellido = document.getElementById('apellidosId').value;
+    if(apellido.length == 0) {
+      alert('Ingresa tu apellido');
+      return;
+    }
+    var correo = document.getElementById('correoId').value;
+    if (correo.length == 0) {
+      alert('Ingrese un correo válido');
+      return;
+    }
+    var mensaje = document.getElementById('mensaje').value;
+    if (mensaje.length == 0) {
+      alert('No haz escrito nada en el mensaje');
+      return;
+    }
+    this.submit();
+  }

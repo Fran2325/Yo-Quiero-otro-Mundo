@@ -134,3 +134,6 @@ section jquery {
     height: 100%;
     border: 3px solid pink;
   }
+h3{
+    color: rgba(174, 89, 196,.5);
+}
