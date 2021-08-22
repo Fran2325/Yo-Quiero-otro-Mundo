@@ -8,15 +8,15 @@ function mialerta() {
 mialerta();
 
 
-
+// funcion para ocultar y mostrar
 $(document).ready(function(){
-	$("#mostrar").click(function(){
-		$('#target').show(300);
-		$('.target').show("slow");
-	});
 	$("#ocultar").click(function(){
-		$('#target').hide(300);
-		$('.target').hide("fast");
+		$('#target').hide(3000);
+		$('.target').hide("ocultar");
+	});
+	$("#mostrar").click(function(){
+		$('#target').show(3000);
+		$('.target').show("mostrar");
 	});
 });
 
